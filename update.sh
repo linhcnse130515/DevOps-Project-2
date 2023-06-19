@@ -1,0 +1,1 @@
+aws cloudformation update-stack --stack-name ourdemoinfra --template-body file://ourinfra.yml  --parameters file://ourinfra.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
