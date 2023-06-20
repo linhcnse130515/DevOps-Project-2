@@ -53,9 +53,9 @@ Resources:
           #!/bin/bash
           sudo apt-get update -y
           sudo apt-get install apache2 -y 
-          mv /var/www/html/index.html /var/www/html/index_old.html
-          wget -P /var/www/html https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#
-          sudo systemctl start apache2.service       
+          sudo systemctl start apache2.service
+          cd /var/www/html
+          echo "it works! Udagram, Udacity" > index.html 
       ImageId: ami-0747bdcabd34c712a
       SecurityGroups:
       - Ref: WebServerSecGroup
