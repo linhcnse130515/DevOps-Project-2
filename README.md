@@ -15,4 +15,5 @@ you can run the part as followed :
 ./create.sh [stackName1] network.yml network-parameters.json
 ./create.sh [stackName2] servers.yml servers-parameters.json
 how to test that it works
-here is the url for testing http://udapr-WebAp-5FGB55RT7GZY-661540103.us-east-1.elb.amazonaws.com/
+here is the url for testing 
+http://udapr-webap-1hznyq798xdty-744912948.us-east-1.elb.amazonaws.com/
